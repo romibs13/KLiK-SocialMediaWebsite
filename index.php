@@ -54,7 +54,7 @@
 
                         <div class="text-center p-3">
                             <img src="img/200.png">
-                            <h2 class='text-muted'>DASHBOARD</h2>
+                            <h2 class='text-muted'>Menu Utama</h2>
                             <br>
                         </div>
 
@@ -62,11 +62,11 @@
                         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item">
                               <a class="nav-link active" id="forum-tab" data-toggle="tab" href="#forum" role="tab" 
-                                 aria-controls="forum" aria-selected="true">Recent Forums</a>
+                                 aria-controls="forum" aria-selected="true">forum terkini</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" id="blog-tab" data-toggle="tab" href="#blog" role="tab" 
-                                 aria-controls="blog" aria-selected="false">Recent Blogs</a>
+                                 aria-controls="blog" aria-selected="false">blog terkini</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" id="poll-tab" data-toggle="tab" href="#poll" role="tab" 
@@ -74,8 +74,14 @@
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" id="event-tab" data-toggle="tab" href="#event" role="tab" 
-                                 aria-controls="event" aria-selected="false">Recent Events</a>
+                                 aria-controls="event" aria-selected="false">event terkini</a>
                             </li>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="event-tab" data-toggle="tab" href="#event" role="tab" 
+                                 aria-controls="event" aria-selected="false">Event terbaru</a>
+                            </li>
+                        // this my change
                         </ul>
 
                         <br>
@@ -348,7 +354,7 @@
 
                         <div class="text-center p-3 mt-5">
                             <a href="team.php" target="_blank">
-                                <i class="creater-icon fa fa-users fa-5x" aria-hidden="true"></i>
+                                <i class="creater-icon fa fa-users fa-6x" aria-hidden="true"></i>
                             </a>
                             <p><br>THE CREATORS</p>
                         </div>
@@ -356,9 +362,9 @@
                         <a href="forum.php" class="btn btn-warning btn-lg btn-block">KLiK Forum</a>
                         <a href="hub.php" class="btn btn-secondary btn-lg btn-block">KLiK Hub</a>
                         <br><br><br>
-                        <a href="create-topic.php" class="btn btn-warning btn-lg btn-block">Create a Forum</a>
                         <a href="create-blog.php" class="btn btn-secondary btn-lg btn-block">Create a Blog</a>
-
+                        <a href="create-topic.php" class="btn btn-warning btn-lg btn-block">Create a Forum</a>
+                        
                     </div>
                 </div>
             </div>
